@@ -1,23 +1,44 @@
 .main{ display: flex;
 flex-direction: column;
-border: 1px solid red;
+margin: 1px auto;
 justify-content: center;
 
-width: 90%;}
+width: 60%;
+}
 
 .firstPart{
     display:  flex;
     flex-direction: column;
-    border: 1px solid black;
+   height: 300px;
 }
 
+.main h1{
+    margin: 0px;
+}
+
+.firstPart h2{
+    margin: 5px;
+}
+
+.firstPart p{
+    margin: 5px;
+}
+.secondPart h2{
+    margin: 5px;
+    
+}
+
+.secondPart p{
+    margin: 5px;
+}
 .secondPart{
     display:  flex;
     flex-direction: column;
-    border: 1px solid black;
-    margin-top: 50px;
+   
+    margin-top: 0px;
    
 }
+
 
 .cards{
     display: flex;
@@ -28,6 +49,33 @@ width: 90%;}
 
 .pocemonCard{
     display: flex;
-    border: 1px solid red;
+   
     flex-direction: column;
+    width: 200px;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px;
+    transition: width 3s, height 4s;
+}
+
+
+.pocemonCard img{
+    width: 150px;
+    height: auto;
+    margin: 2px auto;
+    background-color: rgb(194, 188, 188);
+}
+
+.pocemonCard img:hover {
+	transform: scale(1.15);
+	opacity: 0.5;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 50px auto;
+    
 }
