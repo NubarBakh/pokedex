@@ -1,0 +1,33 @@
+.main{ display: flex;
+flex-direction: column;
+border: 1px solid red;
+justify-content: center;
+
+width: 90%;}
+
+.firstPart{
+    display:  flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.secondPart{
+    display:  flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 50px;
+   
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content:space-around;
+}
+
+.pocemonCard{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+}
